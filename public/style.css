@@ -1,0 +1,24 @@
+#chatContainer,
+#nickError {
+	display: none;
+}
+
+#userList {
+	list-style: none;
+	
+}
+
+#chat {
+	float: left;
+	width: 600px;
+	min-width: 300px;
+}
+
+#chat-area {
+	background-color: #ccc;
+	height: 600px;
+}
+
+#message {
+	width: 80%;
+}

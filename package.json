@@ -1,0 +1,21 @@
+{
+  "name": "my-chat",
+  "version": "1.0.0",
+  "description": "simple socket.io chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket"
+  ],
+  "author": "Alex Cebotari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mongoose": "^4.1.0",
+    "socket.io": "^1.3.6"
+  }
+}

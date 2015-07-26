@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat using Socket.IO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id='newUser'>
+	<p>What's your nickname?</p>
+	<form id='setUserName'>
+		<input type='text' id='userName'>
+		<input type='submit' id='saveName'>
+	</form>
+	<p id='nickError'>Oops, this nick name already exists!</p>
+</div>
+<div id='chatContainer'>
+	<div id='chat'>
+		<div id='chat-area'>
+			
+		</div>
+		<form id='send-message'>
+			<input type='textarea' id='message'>
+			<input type='submit' id='submitButton'>
+		</form>
+	</div>
+
+	<div id='usersBox'>
+		<ul id='userList'></ul>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
